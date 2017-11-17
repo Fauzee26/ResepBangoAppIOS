@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0836BD51FBEDCAD00A766A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0836BD41FBEDCAD00A766A9 /* AppDelegate.swift */; };
+		A0836BD71FBEDCAD00A766A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0836BD61FBEDCAD00A766A9 /* ViewController.swift */; };
+		A0836BDA1FBEDCAD00A766A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0836BD81FBEDCAD00A766A9 /* Main.storyboard */; };
+		A0836BDC1FBEDCAD00A766A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0836BDB1FBEDCAD00A766A9 /* Assets.xcassets */; };
+		A0836BDF1FBEDCAD00A766A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0836BDD1FBEDCAD00A766A9 /* LaunchScreen.storyboard */; };
+		A0836BEA1FBEDCAD00A766A9 /* ResepBangoAppIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0836BE91FBEDCAD00A766A9 /* ResepBangoAppIOSTests.swift */; };
+		A0836BF51FBEDCAD00A766A9 /* ResepBangoAppIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0836BF41FBEDCAD00A766A9 /* ResepBangoAppIOSUITests.swift */; };
+		A0836C031FBEE15800A766A9 /* DaftarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0836C021FBEE15800A766A9 /* DaftarViewController.swift */; };
+		A0836C051FBEE15F00A766A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0836C041FBEE15F00A766A9 /* LoginViewController.swift */; };
+		A0836C071FBEE6D000A766A9 /* InputResepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0836C061FBEE6D000A766A9 /* InputResepViewController.swift */; };
+		A0836C091FBEEB8500A766A9 /* ResepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0836C081FBEEB8500A766A9 /* ResepTableViewController.swift */; };
+		A0836C0B1FBEEB9300A766A9 /* ResepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0836C0A1FBEEB9300A766A9 /* ResepTableViewCell.swift */; };
+		D1F1705ACC7872D6FDA0C2BF /* Pods_ResepBangoAppIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2815F6D98096B43A75946BB2 /* Pods_ResepBangoAppIOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0836BE61FBEDCAD00A766A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0836BC91FBEDCAC00A766A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0836BD01FBEDCAD00A766A9;
+			remoteInfo = ResepBangoAppIOS;
+		};
+		A0836BF11FBEDCAD00A766A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0836BC91FBEDCAC00A766A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0836BD01FBEDCAD00A766A9;
+			remoteInfo = ResepBangoAppIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091873B75BE7BC5A5BEDDC4B /* Pods-ResepBangoAppIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResepBangoAppIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResepBangoAppIOS/Pods-ResepBangoAppIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2815F6D98096B43A75946BB2 /* Pods_ResepBangoAppIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResepBangoAppIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0836BD11FBEDCAD00A766A9 /* ResepBangoAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResepBangoAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0836BD41FBEDCAD00A766A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0836BD61FBEDCAD00A766A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0836BD91FBEDCAD00A766A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0836BDB1FBEDCAD00A766A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0836BDE1FBEDCAD00A766A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0836BE01FBEDCAD00A766A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0836BE51FBEDCAD00A766A9 /* ResepBangoAppIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResepBangoAppIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0836BE91FBEDCAD00A766A9 /* ResepBangoAppIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepBangoAppIOSTests.swift; sourceTree = "<group>"; };
+		A0836BEB1FBEDCAD00A766A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0836BF01FBEDCAD00A766A9 /* ResepBangoAppIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResepBangoAppIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0836BF41FBEDCAD00A766A9 /* ResepBangoAppIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepBangoAppIOSUITests.swift; sourceTree = "<group>"; };
+		A0836BF61FBEDCAD00A766A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0836C021FBEE15800A766A9 /* DaftarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarViewController.swift; sourceTree = "<group>"; };
+		A0836C041FBEE15F00A766A9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A0836C061FBEE6D000A766A9 /* InputResepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputResepViewController.swift; sourceTree = "<group>"; };
+		A0836C081FBEEB8500A766A9 /* ResepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewController.swift; sourceTree = "<group>"; };
+		A0836C0A1FBEEB9300A766A9 /* ResepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewCell.swift; sourceTree = "<group>"; };
+		FAA9D8DE3E478AE98639A56B /* Pods-ResepBangoAppIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResepBangoAppIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResepBangoAppIOS/Pods-ResepBangoAppIOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0836BCE1FBEDCAD00A766A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F1705ACC7872D6FDA0C2BF /* Pods_ResepBangoAppIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0836BE21FBEDCAD00A766A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0836BED1FBEDCAD00A766A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40DA326E1051815190499036 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				091873B75BE7BC5A5BEDDC4B /* Pods-ResepBangoAppIOS.debug.xcconfig */,
+				FAA9D8DE3E478AE98639A56B /* Pods-ResepBangoAppIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0836BC81FBEDCAC00A766A9 = {
+			isa = PBXGroup;
+			children = (
+				A0836BD31FBEDCAD00A766A9 /* ResepBangoAppIOS */,
+				A0836BE81FBEDCAD00A766A9 /* ResepBangoAppIOSTests */,
+				A0836BF31FBEDCAD00A766A9 /* ResepBangoAppIOSUITests */,
+				A0836BD21FBEDCAD00A766A9 /* Products */,
+				40DA326E1051815190499036 /* Pods */,
+				D57B682BF78B7AA12BD7A312 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0836BD21FBEDCAD00A766A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0836BD11FBEDCAD00A766A9 /* ResepBangoAppIOS.app */,
+				A0836BE51FBEDCAD00A766A9 /* ResepBangoAppIOSTests.xctest */,
+				A0836BF01FBEDCAD00A766A9 /* ResepBangoAppIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0836BD31FBEDCAD00A766A9 /* ResepBangoAppIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A0836BD41FBEDCAD00A766A9 /* AppDelegate.swift */,
+				A0836BD61FBEDCAD00A766A9 /* ViewController.swift */,
+				A0836BD81FBEDCAD00A766A9 /* Main.storyboard */,
+				A0836C081FBEEB8500A766A9 /* ResepTableViewController.swift */,
+				A0836C0A1FBEEB9300A766A9 /* ResepTableViewCell.swift */,
+				A0836C061FBEE6D000A766A9 /* InputResepViewController.swift */,
+				A0836C021FBEE15800A766A9 /* DaftarViewController.swift */,
+				A0836C041FBEE15F00A766A9 /* LoginViewController.swift */,
+				A0836BDB1FBEDCAD00A766A9 /* Assets.xcassets */,
+				A0836BDD1FBEDCAD00A766A9 /* LaunchScreen.storyboard */,
+				A0836BE01FBEDCAD00A766A9 /* Info.plist */,
+			);
+			path = ResepBangoAppIOS;
+			sourceTree = "<group>";
+		};
+		A0836BE81FBEDCAD00A766A9 /* ResepBangoAppIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0836BE91FBEDCAD00A766A9 /* ResepBangoAppIOSTests.swift */,
+				A0836BEB1FBEDCAD00A766A9 /* Info.plist */,
+			);
+			path = ResepBangoAppIOSTests;
+			sourceTree = "<group>";
+		};
+		A0836BF31FBEDCAD00A766A9 /* ResepBangoAppIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0836BF41FBEDCAD00A766A9 /* ResepBangoAppIOSUITests.swift */,
+				A0836BF61FBEDCAD00A766A9 /* Info.plist */,
+			);
+			path = ResepBangoAppIOSUITests;
+			sourceTree = "<group>";
+		};
+		D57B682BF78B7AA12BD7A312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2815F6D98096B43A75946BB2 /* Pods_ResepBangoAppIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0836BD01FBEDCAD00A766A9 /* ResepBangoAppIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0836BF91FBEDCAD00A766A9 /* Build configuration list for PBXNativeTarget "ResepBangoAppIOS" */;
+			buildPhases = (
+				99DF4A8D50080FC5DAB6A4D8 /* [CP] Check Pods Manifest.lock */,
+				A0836BCD1FBEDCAD00A766A9 /* Sources */,
+				A0836BCE1FBEDCAD00A766A9 /* Frameworks */,
+				A0836BCF1FBEDCAD00A766A9 /* Resources */,
+				1833625E512A685ABC072E85 /* [CP] Embed Pods Frameworks */,
+				9F4F7549D16B1A387BDD29BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResepBangoAppIOS;
+			productName = ResepBangoAppIOS;
+			productReference = A0836BD11FBEDCAD00A766A9 /* ResepBangoAppIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0836BE41FBEDCAD00A766A9 /* ResepBangoAppIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0836BFC1FBEDCAD00A766A9 /* Build configuration list for PBXNativeTarget "ResepBangoAppIOSTests" */;
+			buildPhases = (
+				A0836BE11FBEDCAD00A766A9 /* Sources */,
+				A0836BE21FBEDCAD00A766A9 /* Frameworks */,
+				A0836BE31FBEDCAD00A766A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0836BE71FBEDCAD00A766A9 /* PBXTargetDependency */,
+			);
+			name = ResepBangoAppIOSTests;
+			productName = ResepBangoAppIOSTests;
+			productReference = A0836BE51FBEDCAD00A766A9 /* ResepBangoAppIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0836BEF1FBEDCAD00A766A9 /* ResepBangoAppIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0836BFF1FBEDCAD00A766A9 /* Build configuration list for PBXNativeTarget "ResepBangoAppIOSUITests" */;
+			buildPhases = (
+				A0836BEC1FBEDCAD00A766A9 /* Sources */,
+				A0836BED1FBEDCAD00A766A9 /* Frameworks */,
+				A0836BEE1FBEDCAD00A766A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0836BF21FBEDCAD00A766A9 /* PBXTargetDependency */,
+			);
+			name = ResepBangoAppIOSUITests;
+			productName = ResepBangoAppIOSUITests;
+			productReference = A0836BF01FBEDCAD00A766A9 /* ResepBangoAppIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0836BC91FBEDCAC00A766A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hilmy Corp.";
+				TargetAttributes = {
+					A0836BD01FBEDCAD00A766A9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A0836BE41FBEDCAD00A766A9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0836BD01FBEDCAD00A766A9;
+					};
+					A0836BEF1FBEDCAD00A766A9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0836BD01FBEDCAD00A766A9;
+					};
+				};
+			};
+			buildConfigurationList = A0836BCC1FBEDCAC00A766A9 /* Build configuration list for PBXProject "ResepBangoAppIOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0836BC81FBEDCAC00A766A9;
+			productRefGroup = A0836BD21FBEDCAD00A766A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0836BD01FBEDCAD00A766A9 /* ResepBangoAppIOS */,
+				A0836BE41FBEDCAD00A766A9 /* ResepBangoAppIOSTests */,
+				A0836BEF1FBEDCAD00A766A9 /* ResepBangoAppIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0836BCF1FBEDCAD00A766A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0836BDF1FBEDCAD00A766A9 /* LaunchScreen.storyboard in Resources */,
+				A0836BDC1FBEDCAD00A766A9 /* Assets.xcassets in Resources */,
+				A0836BDA1FBEDCAD00A766A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0836BE31FBEDCAD00A766A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0836BEE1FBEDCAD00A766A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1833625E512A685ABC072E85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ResepBangoAppIOS/Pods-ResepBangoAppIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ResepBangoAppIOS/Pods-ResepBangoAppIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DF4A8D50080FC5DAB6A4D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ResepBangoAppIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4F7549D16B1A387BDD29BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ResepBangoAppIOS/Pods-ResepBangoAppIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0836BCD1FBEDCAD00A766A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0836C051FBEE15F00A766A9 /* LoginViewController.swift in Sources */,
+				A0836BD71FBEDCAD00A766A9 /* ViewController.swift in Sources */,
+				A0836C0B1FBEEB9300A766A9 /* ResepTableViewCell.swift in Sources */,
+				A0836C071FBEE6D000A766A9 /* InputResepViewController.swift in Sources */,
+				A0836C031FBEE15800A766A9 /* DaftarViewController.swift in Sources */,
+				A0836BD51FBEDCAD00A766A9 /* AppDelegate.swift in Sources */,
+				A0836C091FBEEB8500A766A9 /* ResepTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0836BE11FBEDCAD00A766A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0836BEA1FBEDCAD00A766A9 /* ResepBangoAppIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0836BEC1FBEDCAD00A766A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0836BF51FBEDCAD00A766A9 /* ResepBangoAppIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0836BE71FBEDCAD00A766A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0836BD01FBEDCAD00A766A9 /* ResepBangoAppIOS */;
+			targetProxy = A0836BE61FBEDCAD00A766A9 /* PBXContainerItemProxy */;
+		};
+		A0836BF21FBEDCAD00A766A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0836BD01FBEDCAD00A766A9 /* ResepBangoAppIOS */;
+			targetProxy = A0836BF11FBEDCAD00A766A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0836BD81FBEDCAD00A766A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0836BD91FBEDCAD00A766A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0836BDD1FBEDCAD00A766A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0836BDE1FBEDCAD00A766A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0836BF71FBEDCAD00A766A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0836BF81FBEDCAD00A766A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0836BFA1FBEDCAD00A766A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091873B75BE7BC5A5BEDDC4B /* Pods-ResepBangoAppIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = ResepBangoAppIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.ResepBangoAppIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0836BFB1FBEDCAD00A766A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA9D8DE3E478AE98639A56B /* Pods-ResepBangoAppIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = ResepBangoAppIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.ResepBangoAppIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0836BFD1FBEDCAD00A766A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = ResepBangoAppIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.ResepBangoAppIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResepBangoAppIOS.app/ResepBangoAppIOS";
+			};
+			name = Debug;
+		};
+		A0836BFE1FBEDCAD00A766A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = ResepBangoAppIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.ResepBangoAppIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResepBangoAppIOS.app/ResepBangoAppIOS";
+			};
+			name = Release;
+		};
+		A0836C001FBEDCAD00A766A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = ResepBangoAppIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.ResepBangoAppIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResepBangoAppIOS;
+			};
+			name = Debug;
+		};
+		A0836C011FBEDCAD00A766A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = ResepBangoAppIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.ResepBangoAppIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResepBangoAppIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0836BCC1FBEDCAC00A766A9 /* Build configuration list for PBXProject "ResepBangoAppIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0836BF71FBEDCAD00A766A9 /* Debug */,
+				A0836BF81FBEDCAD00A766A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0836BF91FBEDCAD00A766A9 /* Build configuration list for PBXNativeTarget "ResepBangoAppIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0836BFA1FBEDCAD00A766A9 /* Debug */,
+				A0836BFB1FBEDCAD00A766A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0836BFC1FBEDCAD00A766A9 /* Build configuration list for PBXNativeTarget "ResepBangoAppIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0836BFD1FBEDCAD00A766A9 /* Debug */,
+				A0836BFE1FBEDCAD00A766A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0836BFF1FBEDCAD00A766A9 /* Build configuration list for PBXNativeTarget "ResepBangoAppIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0836C001FBEDCAD00A766A9 /* Debug */,
+				A0836C011FBEDCAD00A766A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0836BC91FBEDCAC00A766A9 /* Project object */;
+}

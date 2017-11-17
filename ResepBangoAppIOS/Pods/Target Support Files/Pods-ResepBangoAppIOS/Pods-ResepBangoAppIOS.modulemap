@@ -1,0 +1,6 @@
+framework module Pods_ResepBangoAppIOS {
+  umbrella header "Pods-ResepBangoAppIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

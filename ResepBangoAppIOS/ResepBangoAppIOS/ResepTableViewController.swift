@@ -24,7 +24,7 @@ class ResepTableViewController: UITableViewController {
         super.viewDidLoad()
 
         
-        let params = ["id_resep" : nampungId!]
+        let params = ["namaResep" : namaSelected]
         let url = "http://localhost/resepBango/index.php/api/getResep"
         
         Alamofire.request(url, method: .post, parameters: params, encoding: URLEncoding.default, headers: nil).responseJSON(completionHandler: { (response) in
